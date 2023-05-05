@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "fastify",
+    "mongoose"
+  ],
+  "author": "vijay",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "fastify": "^4.11.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.20",
+    "os": "^0.1.2"
+  }
+}
